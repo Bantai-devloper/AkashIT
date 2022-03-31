@@ -8,7 +8,7 @@ public class HelloWorldController {
 	
 	@GetMapping(path="/")
 	public String sayHello() {
-		Sysout.out.println("Added New Line ");
+		System.out.println("Added New Line ");
 		
 		return "Hello!! from Java Hungry";
 	}
